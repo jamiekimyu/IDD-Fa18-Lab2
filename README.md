@@ -42,7 +42,7 @@ When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corr
 ## Part C. Using a time-based digital sensor
 
 **Upload a video of your working rotary encoder here.**
-![Working Rotary Encoder](https://www.youtube.com/watch?v=IWdhRCE1wdY)
+[Working Rotary Encoder](https://www.youtube.com/watch?v=IWdhRCE1wdY)
 
 
 ## Part D. Make your Arduino sing!
