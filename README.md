@@ -26,13 +26,16 @@ Include your responses to the bold questions on your own fork of [this lab repor
 5V
 
 **b. What voltage level do you need to power the display backlight?**
+3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corresponding IO pins on the Arduino but did not connect it to ground as the schematic indicated. I fixed it by connected ground to the negative strip on one side of the breadboard, ensuring that the entire row is connected to ground. Then that gave me more room to connect the DB4-DB7 pins both to ground and the IO pins.   
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
- 
+`lcd.print("hello, world!");` I would replace 'hello, world!' with my name
+
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+[Code](https://github.com/jamiekimyu/IDD-Fa18-Lab2/blob/master/code.ino)
 
 
 ## Part C. Using a time-based digital sensor
