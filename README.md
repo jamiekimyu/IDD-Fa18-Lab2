@@ -19,7 +19,7 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ## Part A. Solder your LCD panel
 
 **Take a picture of your soldered panel and add it here!**
-![Code](https://github.com/jamiekimyu/IDD-Fa18-Lab2/blob/master/code.ino)
+![Code](https://github.com/jamiekimyu/IDD-Fa18-Lab2/blob/master/20180910_125008.jpg)
 
 ## Part B. Writing to the LCD
  
@@ -42,7 +42,7 @@ When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corr
 ## Part C. Using a time-based digital sensor
 
 **Upload a video of your working rotary encoder here.**
-![Working Rotary Encoder](https://github.com/jamiekimyu/IDD-Fa18-Lab2/blob/master/code.ino)
+![Working Rotary Encoder](https://www.youtube.com/watch?v=IWdhRCE1wdY)
 
 
 ## Part D. Make your Arduino sing!
