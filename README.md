@@ -23,10 +23,12 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+5V
 
 **b. What voltage level do you need to power the display backlight?**
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
+When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corresponding IO pins on the Arduino but did not connect it to ground as the schematic indicated. I fixed it by connected ground to the negative strip on one side of the breadboard, ensuring that the entire row is connected to ground. Then that gave me more room to connect the DB4-DB7 pins both to ground and the IO pins.   
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
  
