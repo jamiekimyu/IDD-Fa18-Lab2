@@ -30,7 +30,7 @@ Include your responses to the bold questions on your own fork of [this lab repor
 3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
-When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corresponding IO pins on the Arduino but did not connect it to ground as the schematic indicated. I fixed it by connected ground to the negative strip on one side of the breadboard, ensuring that the entire row is connected to ground. Then that gave me more room to connect the DB4-DB7 pins both to ground and the IO pins.   
+I mixed up the pins on IO pins 12 and 11 and RS and E. To fix it I just switched the pins. In the future I want to try to use as many ground cables as possible so the connections are easier to read. 
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
 `lcd.print("hello, world!");` I would replace 'hello, world!' with my name
@@ -48,12 +48,14 @@ When connecting the DB4-DB7 pins on the LCD, I connected it directly to the corr
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+The length of pause between each note is definied in the following code: `int pauseBetweenNotes = noteDuration * 1.30;`. To make the song play twice as fast I would multiple the variable `pauseBetweenNotes` by 0.5. 
  
 **b. What song is playing?**
-
+A Star Wars song
 
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
+[Timer](https://www.youtube.com/watch?v=Svlp_OsH0dg)
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
